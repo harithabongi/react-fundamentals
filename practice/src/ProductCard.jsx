@@ -1,10 +1,13 @@
-function ProductCard({product,price,result}) {
-   
+//import "./ProductCard.css"
+function ProductCard(product) {
+    
+    
     return (
-        <div>
-            <p>{product}</p>
-            <p>{price}</p>
-            <p>{result ? `${result}`: "false"}</p>
+        <div style={titleStyle}>
+            <p className="title"> {product.product}</p>
+            <p className="price" >{product.price}</p>
+            <p className="result1">{product.result}</p>
+
         </div>
     )
 

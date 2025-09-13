@@ -1,0 +1,11 @@
+.style{
+display :flex;
+justify-content: center;
+
+}
+.in{
+    color: green;
+}
+.out{
+    color: red;
+}

@@ -1,0 +1,19 @@
+.title{
+font-size: 30px;
+color:black;
+font-weight: bold;
+}
+.price{
+font-size: 30 px;
+color: blue;
+font-weight: bold;
+}
+.result1{
+font-size: 30px;
+color: green;
+}
+.prop{
+    margin: 200px;
+border:5px solid;
+padding: 10px;
+}
